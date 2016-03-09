@@ -1,0 +1,33 @@
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_search"
+	    android:title="@string/search"
+	    android:icon="@drawable/search"
+	    app:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/menu_gotoPlayingSongDirectory"
+	    android:title="@string/gotoPlayingSongDirectory"
+	    android:icon="@drawable/place"
+	    app:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/menu_gotoBaseFolder"
+        android:title="@string/gotoBaseFolder"
+        app:showAsAction="never" />
+	
+	<item android:id="@+id/menu_songInfo"
+	    android:title="@string/songInfo" />
+	
+	<item android:id="@+id/menu_setAsBaseFolder"
+	    android:title="@string/setAsBaseFolder" />
+	
+	<item android:id="@+id/menu_removeAllEpisodes"
+	    android:title="@string/removeAllEpisodes" />
+	
+	<item android:id="@+id/menu_removeDownloadedEpisodes"
+	    android:title="@string/removeDownloadedEpisodes" />
+
+    <item android:id="@+id/menu_quit"
+        android:title="@string/quit" />
+</menu>

@@ -1,0 +1,4 @@
+-keep class android.support.design.widget.** { *; }
+-keep interface android.support.design.widget.** { *; }
+-dontwarn android.support.design.**
+-dontwarn android.support.**

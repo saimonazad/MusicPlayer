@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="lightGrey">#e6e6e6</color>
+
+    <color name="primary">#E91E63</color>
+    <color name="primaryDark">#880E4F</color>
+    <color name="accent">#F06292</color>
+
+    <color name="cardColor">@android:color/white</color>
+    <color name="cardPlayingColor">#F06292</color>
+    <color name="cardBorderColor">#ccc</color>
+</resources>

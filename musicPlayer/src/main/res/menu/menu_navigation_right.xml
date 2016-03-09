@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/shuffle"
+            android:icon="@drawable/shuffle"
+            android:title="@string/shuffle" />
+        <item
+            android:id="@+id/repeat"
+            android:icon="@drawable/repeat"
+            android:title="@string/repeat" />
+        <item
+            android:id="@+id/repeatAll"
+            android:icon="@drawable/repeatall"
+            android:title="@string/repeatAll" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/bass"
+            android:icon="@drawable/equalizer"
+            android:title="@string/bassBoost" />
+        <item
+            android:id="@+id/equalizer"
+            android:icon="@drawable/equalizer"
+            android:title="@string/equalizerButton" />
+        <item
+            android:id="@+id/shake"
+            android:title="@string/shake" />
+    </group>
+</menu>

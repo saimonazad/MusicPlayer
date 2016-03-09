@@ -1,0 +1,8 @@
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_addFolderToPlaylist"
+        android:title="@string/addFolderToPlaylist" />
+    <item android:id="@+id/menu_setAsBaseFolder"
+        android:title="@string/setAsBaseFolder" />
+</menu>

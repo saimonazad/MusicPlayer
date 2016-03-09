@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPlaybackControls"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" >
+
+    <ImageButton
+        android:id="@+id/imageButtonPrevious"
+        style="@style/buttonPrevious"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/previous"
+        android:layout_marginLeft="12dp"
+        android:background="@android:color/transparent" />
+
+    <com.azad.musicplayer.ui.CheckableImageButton
+        android:id="@+id/imageButtonPlayPause"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/play_pause"
+        android:contentDescription="@string/play"
+        android:layout_marginLeft="12dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNext"
+        style="@style/buttonNext"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/next"
+        android:layout_marginLeft="12dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

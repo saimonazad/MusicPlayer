@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    buildToolsVersion '23.0.2'
+    compileSdkVersion 23
+
+    defaultConfig {
+        applicationId 'com.azad.musicplayer'
+        minSdkVersion 16
+        targetSdkVersion 23
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            versionNameSuffix " DEBUG"
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            shrinkResources true
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+project.ext.set("archivesBaseName", "MusicPlayer");
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+    compile 'com.android.support:appcompat-v7:23.+'
+    compile 'com.android.support:recyclerview-v7:23.+'
+    compile 'com.android.support:design:23.+'
+}
